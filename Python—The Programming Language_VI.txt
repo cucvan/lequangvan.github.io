@@ -1,0 +1,339 @@
+﻿Python-Ngôn ngữ lập trình
+Python là một ngôn ngữ lập trình được tạo ra bởi Guido Von Rossum năm 1991 bắt đầu với ngôn ngữ trước đó gọi là ABC. Ngôn ngữ này có thể được đặc trưng bởi một loạt các tính từ:
+giải thích
+cầm tay
+hướng đối tượng
+tương tác
+giao tiếp
+mã nguồn mở
+dễ hiểu và dễ sử dụng
+Python là một ngôn ngữ lập trình thông dịch, đó là giả biên soạn. Một khi bạn đã viết mã của một chương trình, điều này để được chạy cần một thông dịch viên. Người phiên dịch là một chương trình được cài đặt trên mỗi máy tính mà có nhiệm vụ giải thích các mã nguồn và chạy nó. Do đó không giống như ngôn ngữ như C, C ++, và Java, không có thời gian biên dịch.
+Python là một ngôn ngữ lập trình cao xách tay. Quyết định sử dụng một thông dịch viên như một giao diện cho việc đọc và chạy các mã có một lợi thế quan trọng: tính di động. Trong thực tế, bạn có thể cài đặt trên bất kỳ nền tảng hiện có (Linux, Windows, Mac) một thông dịch viên đặc biệt thích nghi với nó trong khi mã Python phải được giải thích sẽ không thay đổi. Python cũng có, cho khía cạnh này, được chọn là ngôn ngữ lập trình cho nhiều thiết bị nhỏ hình thức, chẳng hạn như Pi mâm xôi và vi điều khiển khác.
+Python là một ngôn ngữ lập trình hướng đối tượng. Trong thực tế, nó cho phép bạn xác định các lớp đối tượng và thực hiện các thừa kế của họ. Nhưng không giống như C ++ và Java không có nhà thầu hoặc hủy. Python cũng cho phép bạn thực hiện các cấu trúc cụ thể trong mã của bạn để quản lý ngoại lệ. Tuy nhiên, cấu trúc của ngôn ngữ rất linh hoạt cho phép lập trình với phương pháp thay thế đối với một trong những hướng đối tượng với, ví dụ như chức năng hoặc vectơ.
+Python là một ngôn ngữ lập trình tương tác. Nhờ thực tế là Python sử dụng một thông dịch viên để được thực thi, ngôn ngữ này có thể mất trên khía cạnh rất khác nhau tùy thuộc vào bối cảnh trong đó nó được sử dụng. Trong thực tế, bạn có thể viết mã tạo thành từ rất nhiều dòng, tương tự như những gì chúng ta sẽ làm gì trong các ngôn ngữ như C ++ hay Java, và sau đó khởi động chương trình, hoặc bạn có thể nhập một dòng lệnh cùng một lúc và thực hiện nó, ngay lập tức nhận được kết quả của lệnh, và tùy thuộc vào chúng, bạn có thể quyết định những gì sẽ là dòng tiếp theo của lệnh được chạy. Chế độ tương tác cao này để thực thi mã làm cho Python một môi trường máy tính một cách hoàn hảo tương tự như Matlab. Đây là một tính năng của Python mà mang sự thành công của ngôn ngữ lập trình này trong cộng đồng khoa học.
+Python là một ngôn ngữ lập trình có thể được giao tiếp. Trong thực tế, ngôn ngữ lập trình này có những tính năng của nó đặc trưng được giao tiếp với mã viết bằng ngôn ngữ lập trình khác như C / C ++ và Fortran. Ngay cả điều này là một sự lựa chọn chiến thắng. Trong thực tế, nhờ vào khía cạnh Python này có thể bù đắp cho những gì có lẽ là điểm yếu duy nhất, tốc độ thực hiện. Bản chất của Python, như một ngôn ngữ lập trình rất năng động, có thể dẫn đến đôi khi thực hiện chương trình lên đến chậm hơn so với các chương trình tĩnh tương ứng biên soạn với các ngôn ngữ khác 100 lần. Do đó, giải pháp cho loại vấn đề hiệu suất là để giao tiếp Python để biên dịch mã của các ngôn ngữ khác bằng cách sử dụng nó như thể nó là của riêng mình.
+Python là một ngôn ngữ lập trình mã nguồn mở. CPython, đó là thực hiện tham chiếu của ngôn ngữ Python là hoàn toàn miễn phí và mã nguồn mở. Ngoài ra mỗi mô-đun hoặc thư viện trong mạng là mã nguồn mở và mã của họ có sẵn trực tuyến. Mỗi tháng, một cộng đồng phát triển sâu rộng mang lại một số cải tiến để làm cho ngôn ngữ này và tất cả các thư viện của nó thậm chí phong phú hơn và hiệu quả hơn. CPython được quản lý bởi chức phi lợi nhuận Python Software Foundation, được tạo ra vào năm 2001 và đã đề ra nhiệm vụ thúc đẩy, bảo vệ và thúc đẩy ngôn ngữ lập trình Python.
+Cuối cùng, Python là một ngôn ngữ đơn giản để sử dụng và học hỏi. Khía cạnh này có lẽ là quan trọng nhất của tất cả bởi vì nó là khía cạnh trực tiếp nhất mà một nhà phát triển, thậm chí là một người mới, đang đối mặt. Các intuitiveness cao và dễ đọc của mã Python thường dẫn đến một “thông cảm” cho ngôn ngữ lập trình này, và do đó nó là sự lựa chọn của hầu hết những người mới trong lập trình. Tuy nhiên, sự đơn giản của nó không có nghĩa hẹp, vì Python là một ngôn ngữ mà đang lan rộng trong mọi lĩnh vực của máy tính. Bên cạnh đó, Python được làm tất cả những điều này rất đơn giản, so với các ngôn ngữ lập trình hiện có như C ++, Java, và Fortran, mà theo bản chất của họ là rất phức tạp.
+Python-The Interpreter
+Như đã trình bày trong các phần trước, mỗi khi bạn chạy python lệnh thông dịch Python bắt đầu, đặc trưng bởi một >>> nhắc.
+Trình thông dịch Python chỉ đơn giản là một chương trình mà đọc và giải thích các lệnh truyền cho dấu nhắc. Bạn đã thấy rằng người phiên dịch có thể chấp nhận hoặc là một lệnh duy nhất tại một thời gian hoặc toàn bộ các file mã Python. Tuy nhiên phương pháp này mà nó thực hiện điều này luôn luôn là như nhau.
+Mỗi lần bạn nhấn phím Enter, người phiên dịch bắt đầu quét mã bằng văn bản (hoặc một hàng hoặc một tập tin đầy đủ mã) token bằng thẻ (tokenization). Những thẻ là những mảnh vỡ của văn bản mà người phiên dịch sẽ sắp xếp trong một cấu trúc cây. Cây thu được là cấu trúc logic của chương trình sau đó được chuyển đổi sang bytecode (pyc hay .pyo). Chuỗi quá trình kết thúc với bytecode mà sẽ được thực hiện bởi một máy ảo Python (PVM). 
+Các bước thực hiện bởi trình thông dịch Python
+Bạn có thể tìm thấy một tài liệu rất tốt về chủ đề này tại liên kết https://www.ics.uci.edu/~pattis/ICS-31/lectures/tokens.pdf.
+Các thông dịch tiêu chuẩn của Python được báo cáo là Cython, vì nó đã được hoàn toàn viết bằng C. Có những khu vực khác đã được phát triển sử dụng ngôn ngữ lập trình khác như Jython, được phát triển trong Java; IronPython, được phát triển trong C # (và sau đó chỉ dành cho Windows); và PyPy, được phát triển hoàn toàn bằng Python.
+Cython
+Dự án Cython được dựa trên việc tạo ra một trình biên dịch mà dịch mã Python vào mã C tương đương. Sau đó mã này được thực hiện trong một môi trường Cython khi chạy. Đây là loại hệ thống biên soạn có thể đã làm cho sự ra đời của C ngữ nghĩa trong mã Python để làm cho nó thậm chí còn hiệu quả hơn. Hệ thống này đã dẫn đến sự sáp nhập của hai thế giới của ngôn ngữ lập trình với sự ra đời của Cython có thể được coi là một ngôn ngữ lập trình mới. Bạn có thể tìm thấy rất nhiều tài liệu về nó trực tuyến; Tôi khuyên bạn nên ghé thăm liên kết này(http://docs.cython.org ).
+Jython
+Song song với Cython, có một phiên bản hoàn toàn được xây dựng và biên soạn trong Java, tên Jython. Nó được tạo ra bởi Jim Hugunin năm 1997 ( http://www.jython.org ). Jython là một phiên bản của việc thực hiện các ngôn ngữ lập trình Python trong Java; đó là tiếp tục đặc trưng bằng cách sử dụng các lớp Java thay vì module Python để thực hiện các phần mở rộng và các gói của Python.
+PyPy
+Các PyPyinterpreter là một JIT (just-in-time) biên dịch, chuyển đổi mã Python trực tiếp trong mã máy khi chạy. Lựa chọn này đã được thực hiện để đẩy nhanh tiến độ thực hiện của Python. Tuy nhiên, sự lựa chọn này đã dẫn đến việc sử dụng của một nhóm nhỏ các lệnh Python, định nghĩa là RPython. Để biết thêm thông tin về vấn đề này xin vui lòng tham khảo trang web chính thức: http://pypy.org .
+Python 2 và Python 3
+cộng đồng Python vẫn đang trong quá trình chuyển đổi từ dịch viên của Series 2 đến Series 3. Trong thực tế, hiện nay bạn sẽ tìm thấy hai phiên bản của Python được sử dụng song song (phiên bản 2.7 và phiên bản 3.4). Đây là loại mơ hồ có thể tạo ra nhiều nhầm lẫn, đặc biệt là trong điều kiện của việc lựa chọn phiên bản nào để sử dụng và sự khác biệt giữa hai phiên bản. Một câu hỏi mà bạn chắc chắn phải được hỏi là tại sao phiên bản 2.x vẫn đang được phát hành nếu nó được phân phối xung quanh một phiên bản nâng cao nhiều hơn như 3.x.
+Khi Guido Van Rossum (tác giả của ngôn ngữ Python) quyết định để mang lại những thay đổi đáng kể đối với ngôn ngữ Python, ông đã sớm phát hiện ra rằng những thay đổi này sẽ làm cho Python mới không tương thích với rất nhiều mã hiện. Vì vậy, ông quyết định bắt đầu với một phiên bản mới của Python gọi là Python 3.0. Để khắc phục những vấn đề tương thích và tạo ra một lượng lớn các mã lây lan không sử dụng được vào mạng, nó đã được quyết định để duy trì một phiên bản tương thích, 2,7 để được chính xác.
+Python 3.0 xuất hiện lần đầu vào năm 2008, trong khi phiên bản 2.7 được phát hành vào năm 2010 với một lời hứa rằng nó sẽ không được theo sau bởi các phiên bản lớn, và tại thời điểm này phiên bản hiện tại là 3.4 (2014).
+Trong cuốn sách, chúng tôi sẽ đề cập đến các phiên bản Python 2.x; Tuy nhiên, với một số ít ngoại lệ, không nên có vấn đề với các phiên bản Python 3.x.
+Cài đặt Python
+Để phát triển các chương trình bằng Python bạn phải cài đặt nó trên hệ điều hành của bạn. Khác so với Windows, bản phân phối Linux và Mac OS X nên đã có trong họ một phiên bản được cài đặt sẵn của Python. Nếu không, hoặc nếu bạn muốn thay thế nó với phiên bản khác, bạn có thể dễ dàng cài đặt nó. Việc lắp đặt Python khác với hệ điều hành; Tuy nhiên, nó là một hoạt động khá đơn giản.
+Trên hệ thống Debian-Ubuntu Linux
+apt-get install python
+trên Red Hat, hệ thống Fedora Linux làm việc với các gói rpm
+yum install python
+Nếu hệ điều hành của bạn là Windows hoặc Mac OS X, bạn có thể đi trên trang web Python chính thức(http:// www. python.org ) Và tải phiên bản mà bạn thích. Các gói trong trường hợp này được cài đặt tự động.
+Tuy nhiên, hôm nay có phân phối cung cấp cùng với các thông dịch Python một số công cụ mà làm cho công tác quản lý và lắp đặt Python, tất cả các thư viện, và các ứng dụng đi kèm dễ dàng hơn. Tôi đề nghị bạn chọn một trong những bản phân phối có sẵn trực tuyến.
+Phân phối Python
+Do sự thành công của ngôn ngữ lập trình Python, trong những năm qua các công cụ trong gói, trong đó đã được phát triển để đáp ứng các chức năng khác nhau nhất, đã trở thành một số lượng lớn như vậy để làm cho nó hầu như không thể quản lý tất cả trong số họ bằng tay.
+Về vấn đề này, nhiều bản phân phối Python cho phép quản lý hiệu quả của hàng trăm gói Python hiện nay có sẵn. Trong thực tế, thay vì cá nhân tải các thông dịch viên, trong đó có bên trong nó chỉ là thư viện chuẩn, và sau đó cần phải cài đặt sau riêng lẻ tất cả các thư viện bổ sung, đó là dễ dàng hơn để cài đặt một bản phân phối Python.
+Trái tim của các bản phân phối là các nhà quản lý gói, đó là không có gì hơn các ứng dụng tự động quản lý, cài đặt, nâng cấp, cấu hình và gỡ bỏ các gói Python là một phần của phân phối.
+Chức năng của họ là rất hữu ích, vì người dùng chỉ cần tạo ra một yêu cầu trên một gói đặc biệt (mà có thể là một cài đặt ví dụ), và quản lý gói, thường là thông qua Internet, thực hiện các hoạt động bằng cách phân tích phiên bản cần thiết, cùng với tất cả phụ thuộc với bất kỳ gói khác, và tải chúng nếu không có mặt.
+Anaconda
+Anaconda là một bản phân phối miễn phí của các gói Python phân phối bởi Continuum Analytics(https://store.continuum.io/cshop/anaconda/ ). Phân phối này hỗ trợ hệ điều hành Linux, Windows và Mac OSX. Anaconda, ngoài việc cung cấp các gói mới nhất phát hành trong thế giới Python, đi kèm với hầu hết các công cụ bạn cần phải thiết lập một môi trường phát triển cho ngôn ngữ lập trình Python.
+Thật vậy, khi bạn cài đặt phân phối của Anaconda trên hệ thống của bạn, bạn có cơ hội sử dụng nhiều công cụ và ứng dụng được mô tả trong chương này, mà không lo lắng về việc phải cài đặt và quản lý chúng một cách riêng biệt. Sự phân bố cơ bản bao gồm Spyder như IDE, IPython QtConsole, và Notebook.
+Việc quản lý của toàn bộ phân phối Anaconda được thực hiện bởi một ứng dụng gọi là conda. Đây là quản lý gói và quản lý môi trường của phân phối Anaconda để xử lý tất cả các gói và các phiên bản của họ.
+conda cài đặt <package name>
+Một trong những khía cạnh thú vị nhất của phân phối này là khả năng quản lý nhiều môi trường phát triển, đều có phiên bản riêng của Python. Thật vậy, khi bạn cài đặt Anaconda, phiên bản Python 2.7 được cài đặt theo mặc định. Tất cả các gói cài đặt sau đó sẽ đề cập đến phiên bản đó. Đây không phải là một vấn đề, bởi vì Anaconda cung cấp khả năng làm việc đồng thời và độc lập với các phiên bản Python khác bằng cách tạo ra một môi trường mới. Bạn có thể tạo, ví dụ, một môi trường dựa trên Python 3.4.
+conda tạo -n py34 python = 3,4 Anaconda
+này sẽ tạo ra một môi trường Anaconda mới với tất cả các gói liên quan đến phiên bản Python 3.4. Việc cài đặt này sẽ không ảnh hưởng đến bất kỳ cách nào môi trường xây dựng với Python 2.7. Sau khi cài đặt, bạn có thể kích hoạt các môi trường mới nhập vào lệnh sau đây.
+nguồn kích hoạt py34
+trên Windows thay vì:
+kích hoạt py34
+C: \ Users \ Fabio> kích hoạt py34
+Kích hoạt môi trường "py34" ...
+[py34] C: \ Users \ Fabio>
+Bạn có thể tạo bao nhiêu phiên bản của Python như bạn muốn; bạn chỉ cần thay đổi các tham số được truyền với các python tùy chọntrong conda lệnh tạo. Khi bạn muốn trở lại làm việc với phiên bản Python gốc bạn phải sử dụng lệnh sau:
+nguồn tắt
+trên Windows
+[py34] C: \ Users \ Fabio> tắt
+Việc tắt môi trường "py34"
+C: \ Users \ Fabio>
+Enthought Canopy
+Có là một phân phối rất giống với Anaconda và nó là sự phân bố Canopy được cung cấp bởi Enthought, một công ty thành lập năm 2001 và rất nổi tiếng nhất là đối với các dự án scipy ( https://www.enthought.com/products/canopy/ ). Phân phối này hỗ trợ hệ thống OX Linux, Windows và Mac và nó bao gồm một số lượng lớn các gói, các công cụ, và các ứng dụng bởi một người quản lý gói quản lý. Người quản lý gói của Canopy, như trái ngược với conda, là hoàn toàn đồ họa.
+Thật không may, chỉ có phiên bản cơ bản của phân phối này, được xác định Canopy Express, là miễn phí; ngoài các gói thường được phân phối, nó cũng bao gồm IPython và một IDE của Canopy rằng có một tính năng đặc biệt mà không có mặt trong IDE khác. Nó đã nhúng IPython để sử dụng môi trường này như một cửa sổ để thử nghiệm và mã gỡ lỗi.
+Python (x, y)
+Python (x, y) là một phân phối miễn phí mà chỉ hoạt động trên Windows và được tải về từ http://code.google.com.ezproxy.library.ubc.ca/p/pythonxy/ . 
+Phân phối này có Spyder như IDE.
+Sử dụng Python
+Python là một ngôn ngữ phong phú nhưng đơn giản cùng một lúc, rất linh hoạt; nó cho phép mở rộng các hoạt động phát triển của bạn trong nhiều lĩnh vực công tác (phân tích dữ liệu, Scientifics, giao diện đồ họa, vv). Chính vì lý do này, khả năng sử dụng Python có thể mất rất nhiều hoàn cảnh khác nhau, thường theo thị hiếu và khả năng của các nhà phát triển. Phần này trình bày các phương pháp tiếp cận khác nhau để sử dụng Python trong quá trình của cuốn sách. Theo các chủ đề khác nhau được thảo luận trong chương khác nhau, những cách tiếp cận khác nhau sẽ được sử dụng cụ thể như họ sẽ phù hợp hơn với nhiệm vụ phụ trách.
+Python Shell
+Cách dễ nhất để tiếp cận với thế giới Python là để mở một phiên họp về vỏ Python, một thiết bị đầu cuối chạy dòng lệnh. Trong thực tế, bạn có thể nhập một dòng lệnh tại một thời điểm và kiểm tra hoạt động của mình ngay lập tức. Chế độ này làm cho rõ ràng bản chất của thông dịch viên làm nền tảng cho hoạt động của Python. Trong thực tế, thông dịch viên có thể đọc một lệnh tại một thời điểm, lưu giữ các trạng thái của các biến quy định tại các dòng trước đó, một hành vi tương tự như của Matlab và phần mềm tính toán khác.
+Cách tiếp cận này là rất phù hợp đối với những cách tiếp cận lần đầu tiên với ngôn ngữ Python. Bạn có khả năng để kiểm tra lệnh chỉ huy mỗi lần mà không cần phải viết, chỉnh sửa, và chạy toàn bộ chương trình, đôi khi bao gồm nhiều dòng mã.
+Chế độ này cũng được chỉ định phải làm gì để kiểm tra và mã Python debug một dòng tại một thời điểm, hoặc đơn giản là để làm cho tính toán. Để bắt đầu một phiên làm việc trên thiết bị đầu cuối, chỉ cần viết trong dòng lệnh
+>>>python
+Python2.7.8 (mặc định, ngày 02 tháng 7 năm 2014, 15:12:11) [MSC v.1500 64 bit (AMD64)]
+trênwin32
+Loại" giúp đỡ", 'bản quyền', 'tín dụng' hoặc 'giấy phép' để biết thêm thông tin.
+>>>
+Bây giờ Python vỏ đang hoạt động và các thông dịch viên sẵn sàng nhận lệnh bằng Python. Bắt đầu bằng cách nhập đơn giản nhất của lệnh nhưng một cổ điển để bắt đầu với lập trình.
+>>> print "Hello World!"
+Chào thế giới!
+Chạy Toàn bộ Mã Chương trình
+Con đường quen thuộc nhất đối với mỗi lập trình viên là viết toàn bộ mã chương trình và sau đó chạy nó từ nhà ga. Đầu tiên viết một chương trình sử dụng một trình soạn thảo văn bản đơn giản; bạn có thể sử dụng làm ví dụ mã hiển thị trong Liệt kê 2-1 và lưu nó như MyFirstProgram.py.
+Niêm yết2-1.MyFirstProgram.py
+myname = raw_input ( "Tên bạn là gì? ")
+Print "Hi" + myname +", tôi vui mừng nói: Hello world"
+Bây giờ bạn đã viết chương trình đầu tiên của bạn trong Python, và bạn có thể chạy trực tiếp từ dòng lệnh bằng cách gọi lệnh python và sau đó là tên của tập tin chứa mã chương trình.
+python myFirstProgram.py
+tên của bạn là gì? Fabio Nelli
+Hi Fabio Nelli, Tôi rất vui khi nói: Xin chào mọi người!
+Thực hiện Luật Sử dụng một IDE
+Một cách tiếp cận toàn diện hơn những người trước đây là việc sử dụng một IDE (hoặc tốt hơn, một môi trường phát triển tích hợp). Những biên tập viên là phần mềm phức tạp thực sự mà cung cấp một môi trường làm việc trên đó để phát triển mã Python của bạn. Họ rất giàu công cụ mà làm cho cuộc sống dễ dàng hơn cho các nhà phát triển, đặc biệt là khi gỡ lỗi. Trong phần tiếp theo, bạn sẽ thấy một cách chi tiết những gì IDE hiện đang có sẵn.
+Tương tác với Python
+Phương pháp cuối cùng, và theo ý kiến của tôi, có lẽ là sáng tạo nhất, là một trong những tương tác. Trong thực tế, ngoài ba phương pháp trước đây, đó là những người cho tốt hơn hoặc tồi tệ hơn được sử dụng bởi tất cả các nhà phát triển của ngôn ngữ lập trình khác, phương pháp này cung cấp cơ hội để tương tác trực tiếp với mã Python.
+Về vấn đề này, thế giới của Python đã được làm giàu rất nhiều với sự ra đời của IPython. IPython là một công cụ rất mạnh mẽ, được thiết kế đặc biệt để đáp ứng nhu cầu của sự tương tác giữa người diễn giải Python và các nhà phát triển, mà theo cách tiếp cận này có vai trò của chuyên gia phân tích, kỹ sư, hay nghiên cứu. Trong phần sau IPython và các tính năng của nó sẽ được giải thích chi tiết hơn.
+Viết Python Mã
+Trong phần trước, bạn thấy làm thế nào để viết một chương trình đơn giản, trong đó chuỗi “Hello World” được in ra. Bây giờ trong phần này bạn sẽ có được một cái nhìn tổng quan ngắn gọn về những điều cơ bản của ngôn ngữ Python chỉ để làm quen với các khía cạnh cơ bản quan trọng nhất.
+Phần này không có ý định để dạy cho bạn để chương trình bằng Python, hoặc để minh họa quy tắc cú pháp của ngôn ngữ lập trình, nhưng chỉ để cung cấp cho bạn một cái nhìn tổng quan nhanh chóng của một số nguyên tắc cơ bản của Python cần thiết để tiếp tục với các chủ đề được đề cập trong cuốn sách này.
+Nếu bạn đã biết ngôn ngữ Python bạn có thể yên tâm bỏ qua phần giới thiệu này. Thay vào đó nếu bạn không quen thuộc với các chương trình và bạn cảm thấy khó khăn để hiểu được chủ đề, tôi khuyên bạn nên xem tài liệu, hướng dẫn, và các khóa học trực tuyến các loại.
+Hãy tính toán
+Bạn đã thấy rằng các bản in () chức năng rất hữu ích cho việc in ấn gần như bất cứ điều gì. Python, ngoài việc là một công cụ in ấn, cũng là một máy tính tuyệt vời. Bắt đầu một phiên làm việc trên vỏ Python và bắt đầu thực hiện các hoạt động toán học:
+>>> 1 + 2
+3
+>>>  * 3) / 4 0,78375
+(1,045
+>>> 4 ** 2
+16
+>>> ((4 + 5J) * (2 + 3J))
+(-7 + 22j)
+>>> 4 <(2 * 3)
+Đúng
+Python có thể tính toán nhiều loại dữ liệu bao gồm cả số và điều kiện với các giá trị Boolean phức tạp. Như bạn có thể nhìn thấy từ các tính toán ở trên, trình thông dịch Python trả trực tiếp kết quả của các tính toán mà không cần phải sử dụng print () chức năng. Điều tương tự cũng áp dụng cho các giá trị chứa trong biến. Nó đủ để gọi biến để xem nội dung của nó.
+>>> a = 12 * 3.4
+>>> một
+40,8
+Import thư viện và chức năng mới
+Bạn thấy Python được đặc trưng bởi khả năng mở rộng chức năng của nó bằng cách nhập nhiều gói và các module có sẵn. Để nhập một mô-đun trong toàn bộ, bạn phải sử dụng lệnh nhập khẩu.
+>>> import toán
+Bằng cách này tất cả các chức năng chứa trong toán góicó sẵn trong phiên Python của bạn, do đó bạn có thể gọi trực tiếp. Vì vậy bạn đã mở rộng các bộ tiêu chuẩn của các chức năng có sẵn khi bạn bắt đầu một phiên Python. Các chức năng này được gọi với biểu thức sau đây.
+library_name.function_name ()
+Ví dụ, bây giờ bạn có thể tính toán sin của giá trị chứa trong biến a.
+>>> Math.sin (a)
+Như bạn thấy hàm được gọi cùng với tên của thư viện. Đôi khi bạn có thể tìm thấy những biểu hiện sau đây để tuyên bố một nhập khẩu.
+>>> nhập khẩu toán *
+Ngay cả nếu điều này làm việc đúng cách, nó là để tránh cho một thói quen tốt. Trong thực tế viết một nhập khẩu theo cách này liên quan đến việc nhập khẩu của tất cả các chức năng mà không nhất thiết phải xác định các thư viện mà họ thuộc về.
+>>> sin (a)
+0,040693257349864856
+Đây là hình thức nhập khẩu thực sự có thể dẫn đến sai sót rất lớn, đặc biệt là nếu các thư viện nhập khẩu đang bắt đầu được nhiều. Trong thực tế, nó không phải là không chắc rằng thư viện khác nhau có chức năng cùng tên, và nhập khẩu tất cả các sẽ cho kết quả trong một ghi đè của tất cả các chức năng có cùng tên nhập khẩu trước đó. Do đó hành vi của chương trình có thể tạo ra rất nhiều lỗi hoặc tệ hơn, hành vi bất thường.
+Trên thực tế, cách này để nhập khẩu thường được sử dụng để chỉ có một số hạn chế về chức năng, tức là chức năng mà là thực sự cần thiết cho các hoạt động của chương trình, như vậy tránh được việc nhập khẩu của toàn bộ một thư viện khi nó hoàn toàn không cần thiết.
+>>> nhập khẩu toán tội lỗi
+Cấu trúc dữ liệu
+Bạn thấy trong các ví dụ trước đó làm thế nào để sử dụng các biến đơn giản có chứa một giá trị duy nhất. Trên thực tế Python cung cấp một số cấu trúc dữ liệu cực kỳ hữu ích. Những cấu trúc dữ liệu có thể chứa nhiều dữ liệu cùng một lúc, và đôi khi thậm chí các loại khác nhau. Các cấu trúc dữ liệu khác nhau được cung cấp được định nghĩa khác nhau tùy thuộc vào cách dữ liệu của họ được cấu trúc bên trong.
+Danh mục
+thiết lập
+chuỗi
+các bộ
+từ điển
+deque
+đống
+Đây chỉ là một phần nhỏ của tất cả các cấu trúc dữ liệu có thể được thực hiện với Python. Trong số tất cả các cấu trúc dữ liệu, phổ biến nhất được sử dụng là từ điển và danh sách.
+Từ điển loại, định nghĩa cũng như dicts, là một cấu trúc dữ liệu, trong đó mỗi giá trị cụ thể gắn liền với một nhãn đặc biệt được gọi là chìa khóa. Các dữ liệu thu thập được trong một cuốn từ điển không có trật tự nội bộ nhưng chỉ định nghĩa của cặp khóa / giá trị.
+>>> dict = { 'name': 'William', 'tuổi': 25 'thành phố': 'London'}
+Nếu bạn muốn truy cập một giá trị cụ thể trong từ điển mà bạn phải chỉ ra tên của khóa liên quan.
+>>> dict [ "name"]
+'William'
+Nếu bạn muốn lặp các cặp giá trị trong một từ điển mà bạn phải sử dụng cho trong xây dựng. Điều này có thể thông qua việc sử dụng các mặt hàng) chức năng (.
+>>> cho khóa, giá trị trong dict.items ():
+... print (key, value)
+...
+tên William
+thành phố London
+tuổi 25
+Danh sách loại là một cấu trúc dữ liệu có chứa một số đối tượng theo một thứ tự chính xác để tạo thành một chuỗi mà các yếu tố có thể được thêm vào và loại bỏ. Mỗi mục được đánh dấu bằng một số tương ứng với thứ tự của dãy, gọi là chỉ mục.
+>>> list = [1,2,3,4]
+>>> danh sách
+[1, 2, 3, 4]
+Nếu bạn muốn truy cập các yếu tố cá nhân nó là đủ để xác định các chỉ số trong ngoặc vuông (mục đầu tiên trong danh sách có 0 như index), trong khi nếu bạn đưa ra một phần của danh sách (hoặc một chuỗi), nó là đủ để xác định phạm vi với các chỉ số i và j tương ứng với những thái cực của phần.
+>>> Danh mục [2]
+3
+>>> danh sách [1: 3]
+[2, 3]
+Thay vào đó nếu bạn đang sử dụng chỉ số tiêu cực, điều này có nghĩa bạn đang cân nhắc mục cuối cùng trong danh sách và dần dần chuyển sang đầu tiên.
+>>> Danh mục [-1]
+4
+Để làm một quét của các yếu tố của một danh sách mà bạn có thể sử dụng cho trong xây dựng.
+>>> mục = [1,2,3,4,5]
+>>> cho mặt hàng trong mục:
+... mục + 1
+...
+2
+3
+4
+5
+6
+chức năng lập trình (Chỉ dành cho Python 3.4)
+for-in vòng lặp hiển thị trong ví dụ trước rất giống với những mặt hàng trong ngôn ngữ lập trình khác. Nhưng trên thực tế, nếu bạn muốn trở thành một “Python” nhà phát triển, bạn phải tránh sử dụng vòng rõ ràng. Python cung cấp cách tiếp cận thay thế khác, quy định cụ thể những kỹ thuật lập trình như lập trình chức năng (chương trình biểu định hướng).
+Các công cụ mà Python cung cấp để phát triển lập trình chức năng bao gồm một loạt các chức năng:
+bản đồ (chức năng, danh sách)
+lọc (chức năng, danh sách)
+giảm (chức năng, danh sách)
+lambda
+danh sáchhiểu
+ for Vòng lặp  mà bạn đã chỉ nhìn thấy có một mục đích cụ thể, mà là áp dụng một thao tác trên từng hạng mục và sau đó bằng cách nào đó thu thập kết quả. Điều này có thể được thực hiện bằng bản đồ function ().
+>>> mục = [1,2,3,4,5]
+>>> def inc (x): return x + 1
+...
+>>> danh sách (bản đồ (inc, items))
+[2, 3, 4 , 5, 6]
+Trong ví dụ trước, đầu tiên bạn đã xác định chức năng mà thực hiện các hoạt động trên tất cả các yếu tố duy nhất, và sau đó bạn đã trôi qua nó như là đối số đầu tiên vào bản đồ().Python cho phép bạn xác định các chức năng trực tiếp trong đối số đầu tiên sử dụng lambda như một hàm. Điều này làm giảm đáng kể mã, và làm gọn xây dựng trước đó, trong một dòng mã.
+>>> danh sách (bản đồ ((lambda x: x + 1), items))
+[2, 3, 4, 5, 6]
+Hai chức năng khác làm việc trong một cách tương tự như là bộ lọc () và giảm (). Bộ lọc () chức năng trích xuất các phần tử của danh sách mà hàm trả về True. Các giảm () chức năng thay vì xem xét tất cả các yếu tố của danh sách để tạo ra một kết quả duy nhất. Để sử dụng giảm (), bạn phải nhập functools module.
+>>> Danh mục (bộ lọc ((lambda x: x <4), items))
+[1, 2, 3]
+>>> từ functools nhập khẩu giảm
+>>> giảm ((lambda x, y: x / y), các mục )
+0. 008333333333333333
+Cả hai chức năng thực hiện các loại khác của việc sử dụng for. vòng lặp  Họ sẽ thay thế những chu kỳ và chức năng của họ, có thể được luân phiên trình bày với các chức năng đơn giản gọi. Đó là những gì cấu thành chức năng lập trình.
+Các khái niệm chính thức của lập trình chức năng là danh sách hiểu. Khái niệm này được sử dụng để xây dựng danh sách theo một cách rất tự nhiên và đơn giản, đề cập đến chúng trong một cách tương tự như cách các nhà toán học mô tả các tập dữ liệu. Các giá trị của chuỗi được định nghĩa thông qua một chức năng hoặc hoạt động cụ thể.
+>>> S = [x ** 2 cho x trong phạm vi (5)]
+>>> S
+[0, 1, 4, 9, 16]
+Indentation
+Một nét đặc biệt cho những người đến từ các ngôn ngữ lập trình khác là vai trò mà indentationplays. Trong khi bạn sử dụng để quản lý các vết lõm vì lý do thuần túy thẩm mỹ, làm cho mã dễ đọc hơn một chút, bằng Python nó giả định một vai trò không thể thiếu trong việc thực hiện các mã, chia nó thành các khối logic. Trong thực tế, trong khi ở Java, C và C ++ mỗi dòng lệnh của mã được tách ra từ tiếp theo bởi một ';', bằng Python bạn không nên chỉ định bất kỳ ký tự đứng giữa họ, bao gồm các dấu ngoặc để chỉ một khối logic. Những vai trò trong Python được xử lý thông qua thụt đầu dòng; có nghĩa là, tùy thuộc vào điểm khởi đầu của dòng mã, người phiên dịch cho rằng dòng cho dù nó thuộc về một khối logic hay không.
+>>> a = 4
+>>> nếu a> 3:
+... nếu a <5:
+... print ( "Tôi bốn")
+... else:
+... print ( "Tôi là một chút số ")
+...
+tôi bốn
+>>> nếu a> 3:
+... nếu a <5
+...print (" tôi bốn ")
+... else:
+... print (" tôi 'm một số lượng lớn ")
+...
+tôi bốn
+trong ví dụ này, bạn có thể thấy rằng tùy thuộc vào cách lệnh khác đang thụt vào, các điều kiện giả định hai ý nghĩa khác nhau (theo quy định của tôi trong chuỗi tự).
+IPython
+IPython là một phát triển hơn nữa của Python trong đó bao gồm một số công cụ: IPython vỏ, vỏ tương tác mạnh mẽ dẫn đến một thiết bị đầu cuối Python tăng cường đáng kể; một QtConsole, mà là một lai giữa một vỏ và một giao diện, cho phép theo cách này để hiển thị đồ họa bên trong giao diện điều khiển thay vì trong cửa sổ riêng biệt; và cuối cùng là tính xách tay IPython, mà là một giao diện web cho phép bạn kết hợp văn bản, mã thực thi, đồ họa và công thức trong một đại diện duy nhất.
+IPython Shell
+vỏ này dường như giống một chạy phiên Python từ một dòng lệnh, nhưng trên thực tế, nó cung cấp nhiều tính năng khác mà làm cho vỏ này mạnh hơn rất nhiều và linh hoạt hơn so với một cổ điển. Để khởi chạy vỏ này chỉ cần gõ ipython trong dòng lệnh.
+> Ipython
+Python 2.7.8 (mặc định, ngày 02 tháng bảy năm 2014, 15:12:11) [M
+Loại "bản quyền", "tín dụng", hoặc "Giấy phép" để biết thêm thông tin.
+IPython 2.4.1 - Một tăng cường tương tác Python.
+? -> Giới thiệu và tổng quan về các tính năng của IPython.
+% quickref -> Tham chiếu nhanh.
+giúp -> hệ thống trợ giúp riêng của Python.
+vật? -> Chi tiết về 'đối tượng', sử dụng 'đối tượng ??' để biết chi tiết thêm.
+Trong [1]:
+Như bạn có thể thấy, một dấu nhắc đặc biệt sẽ xuất hiện với giá trị trong[1].Điều này có nghĩa rằng nó là dòng đầu tiên của đầu vào. Thật vậy, IPython cung cấp một hệ thống nhắc nhở đánh số (lập chỉ mục) với đầu vào và đầu ra bộ nhớ đệm.
+Trong [1]: in "Hello World!"
+Chào thế giới!
+Trong [2]: 3/2
+Out [2]: 1
+trong [3]: 5.0 / 2
+Out [3]: 2.5
+trong [4]:
+Điều tương tự cũng áp dụng đối với giá trị sản lượng được chỉ định với các giá trị Out [1], Out[2],và vân vân. IPython lưu tất cả nguyên liệu đầu vào mà bạn nhập lưu trữ chúng như là các biến. Trong thực tế, tất cả các yếu tố đầu vào được bao gồm như là các lĩnh vực trong một danh sách gọi trong.
+Trong [4]: Trong
+Out [4]: [ '', u'print "Hello World!" 'U'3 / 2' , u'5.0 / 2' , u'_i2' , u'In']
+Các chỉ số của các yếu tố danh sách là một cách chính xác các giá trị xuất hiện trong mỗi cửa sổ. Vì vậy, để truy cập vào một dòng đầu vào bạn chỉ có thể xác định chính xác giá trị đó.
+Trong [5]: Trong [3]
+Out [5]: u'5.0 / 2'
+Ngay cả đối với đầu ra bạn có thể áp dụng tương tự.
+{2: 1,
+3: 2,5,
+4: [ '',
+  u'print "Hello World!",
+  u'3 / 2' ,
+  u'5.0 / 2' ,
+  u'_i2' ,
+  u'In',
+  u'In [3],
+  u'Out '],
+5: u'5.0 / 2'}
+IPython Qt-Bảng điều khiển
+Để khởi động ứng dụng này từ dòng lệnh bạn phải nhập lệnh sau:
+ipython qtconsole
+Ứng dụng này bao gồm một giao diện mà bạn có tất cả các chức năng hiện diện trong vỏ IPython. Xem Hình 2-2.
+Các IPython QtConsole
+IPython Máy tính xách tay
+Máy tính xách tay IPython là sự phát triển mới nhất của môi trường tương tác này (xem hình 2-3).Trong thực tế, với IPython Máy tính xách tay, bạn có thể nhập mã thực thi, văn bản, công thức, hình ảnh, và hình ảnh động vào một tài liệu Web duy nhất, hữu dụng cho nhiều mục đích như thuyết trình, hướng dẫn, gỡ lỗi, và vân vân.
+Các trang web hiển thị Notebook IPython
+các Jupyter Dự án
+IPython là một dự án mà đã phát triển vô cùng trong thời gian gần đây, và với việc phát hành IPython 3.0, tất cả mọi thứ đang hướng tới một dự án mới mang tên Jupyter ( https://jupyter.org ).
+IPython sẽ tiếp tục tồn tại như một vỏ Python, và như là một hạt nhân của Jupyter, nhưng tính xách tay và các thành phần ngôn ngữ-agnostic khác thuộc dự án IPython tất cả sẽ chuyển sang hình thành dự án Jupyter mới.
+Logo dự án của Jupyter
+PyPI-The Python Package  số
+ChỉPython Package Index (PyPI) là một kho lưu trữ phần mềm có chứa tất cả các phần mềm cần thiết cho lập trình bằng Python, ví dụ, tất cả các gói Python thuộc thư viện Python khác. Kho nội dung được quản lý trực tiếp bởi các nhà phát triển các gói cá nhân mà đối phó với việc cập nhật kho với các phiên bản mới nhất của các thư viện phát hành của họ. Đối với một danh sách các gói chứa trong kho bạn nên đến xem trang chính thức của PyPI với liên kết này: https://pypi.python.org/pypi .
+Theo như sự điều hành của những gói này, bạn có thể sử dụng ứng dụng pip đó là quản lý gói của PyPI.
+Launching it from the command line, you can manage all the packages individually deciding if the package is to be installed, upgraded, or removed. Pip will check if the package is already installed, of if it needs to be updated, to control dependencies, that is, to assess whether other packages are necessary. Furthermore, it manages their downloading and installation.
+$ pip install <<package_name>>
+$ pip search <<package_name>>
+$ pip show <<package_name>>
+$ pip unistall <<package_name>>
+Regarding the installation, if you have Python 3.4+ (released March 2014) and Python 2.7.9+ (released December 2014) already installed on your system, the pip software is already included in these releases of Python. However, if you are still using an older version of Python you need to install pip on your system. The installation of pip on your system depends on the operating system on which you are working.
+On Linux Debian-Ubuntu:
+$ sudo apt-get install python-pip
+On Linux Fedora
+$ sudo yum install python-pip
+On Windows:
+Visit the site www.pip-installer.org/en/latest/installing.html  and download get-pip.py on your PC. Once the file is downloaded, run the command
+python get-pip. py
+In this way, you will install the package manager. Remember to add C:\Python2.X\Scripts in the PATH environment variable.
+The IDEs for Python
+Although most of the Python developers are used to implement their code directly from the shell (Python or IPython), some IDEs (Interactive Development Environments) are also available. In fact, in addition to a text editor, these graphics editors also provide a series of tools very useful during the drafting of the code. For example, the auto-completion of code, viewing the documentation associated with the commands, debugging, and breakpoints are only some of the tools that this kind of application can provide.
+IDLE (Integrated DeveLopment Environment)
+IDLE is a very simple IDE created specifically for development in Python. It is the official IDE included in the standard Python release, so it is embedded within the standard distribution of Python (see Figure 2-5). IDLE is a piece of software that is fully implemented in Python.
+The IDLE Python shell
+Spyder
+Spyder (Scientific Python Development Environment) is an IDE that has similar features to the IDE of Matlab (see Figure 2-6). The text editor is enriched with syntax highlighting and code analysis tools. Also, using this IDE you have the option to integrate ready-to-use widgets in your graphic applications.
+The Spyder IDE
+Eclipse (pyDev)
+Those who developed in other programming languages certainly know Eclipse, a universal IDE developed entirely in Java (therefore requiring Java installation on your PC) that provides a development environment for many programming languages (see Figure 2-7). So there is also an Eclipse version for developing in Python thanks to the installation of an additional plug-in called pyDev.
+The Eclipse IDE
+Sublime
+This text editor is one of the preferred environment for Python programmers (see Figure 2-8). In fact, there are several plug-ins available for this application that make Python implementation easy and enjoyable.
+The Sublime IDE
+Liclipse
+Liclipse, similarly to Spyder, is a development environment specifically designed for the Python language (see Figure 2-9). Basically it is totally similar to the Eclipse IDE but it is fully adapted for a specific use of Python, without installing plug-ins like PyDev. So its installation and its setting are much simpler than Eclipse.
+The Liclipse IDE
+NinjaIDE
+NinjaIDE (NinjaIDE is “Not Just Another IDE”) characterized by a name that is a recursive acronym, is a specialized IDE for the Python language. It's a very recent application on which the efforts of many developers are focused. Being already very promising, it is likely that in the coming years, this IDE will be a source of many surprises.
+Komodo IDE
+Komodo is a very powerful IDE full of tools that make it a complete and professional development environment. Paid software, written in C ++, Komodo is an IDE that provides a development environment adaptable to many programming languages, including Python.
+SciPy
+SciPy (pronounced “Sigh Pie”) is a set of open-source Python libraries specialized for scientific computing. Many of these libraries will be the protagonists of many chapters of the book, given that their knowledge is critical to the data analysis. Together they constitute a set of tools for calculating and displaying data that has little to envy from other specialized environments for calculation and data analysis (such as R or Matlab). Among the libraries that are part of the SciPy group, there are some in particular that will be discussed in the following chapters:
+NumPy
+Matplotlib
+Pandas
+NumPy
+This library, whose name means Numerical Python, actually constitutes the core of many other Python libraries that have originated from it. Indeed NumPy is the foundation library for scientific computing in Python since it provides data structures and high-performing functions that the basic package of the Python cannot provide. In fact, as you will see later in the book, NumPy defines a specific data structure that is an N-dimensional array defined as ndarray.
+The knowledge of this library is revealed in fact essential in terms of numerical calculations since its correct use can greatly influence the performance of a computation. Throughout the book, this library will be almost omnipresent because of its unique characteristics, so its discussion in a chapter devoted to it ( Chapter 3) proves to be necessary.
+This package provides some features that will be added to the standard Python:
+ndarray: a multidimensional array much faster and more efficient than those provided by the basic package of Python.
+element-wise computation: a set of functions for performing this type of calculation with arrays and mathematical operations between arrays.
+reading-writing data sets: a set of tools for reading and writing data stored in the hard disk.
+Integration with other languages such as C, C ++, and FORTRAN: a set of tools to integrate code developed with these programming languages
+Pandas
+This package provides complex data structures and functions specifically designed to make the work on them easy, fast, and effective. This package is the core for the data analysis with Python. Therefore, the study and application of this package will be the main argument on which you will work throughout the book (especially  Chapters 4,  5, and  6). So its knowledge in every detail, especially when it is applied to the data analysis, is a fundamental objective of this book.
+The fundamental concept of this package is the DataFrame, a two-dimensional tabular data structure with row and column labels.
+Pandas combines the high performance properties of the NumPy library to apply them to the manipulation of data in spreadsheets or in relational databases (SQL database). In fact, using sophisticated indexing it will be easy to carry out many operations on this kind of data structures, such as reshaping, slicing, aggregations, and the selection of subsets.
+matplotlib
+This package is the Python library that is currently most popular for producing plots and other data visualizations in 2D. Since the data analysis requires visualization tools, this is the library that best suits the purpose. In  Chapter 7 you will see in detail this rich library so you will know how to represent the results of your analysis in the best way.
+Conclusions
+In the course of this chapter all the fundamental aspects characterizing the Python's world have been illustrated. The Python programming language is introduced in its basic concepts with brief examples, explaining the innovative aspects that it introduces and especially how it stands out compared to other programming languages. In addition, different ways of using Python at various levels have been presented. First you have seen how to use a simple command-line interpreter, then a set of simple graphical user interfaces are shown until you get to such complex development environments, known as IDE, such as Spyder and NinjaIDE.
+Even the highly innovative project IPython was presented, showing the possibility to develop the Python code interactively, in particular with the IPython Notebook.
+Moreover, the modular nature of Python has been highlighted with the ability to expand the basic set of standard functions provided by Python with external libraries. In this regard, the PyPI online repository has been shown along with other Python distributions such as Anaconda and Enthought Canopy.
+In the next chapter you will deal with the first library that is the basis of numerical calculation in Python: NumPy. You will learn about the ndarray, a data structure which will be the basis of all the more complex data structures used in the data analysis and shown in the following chapters.
